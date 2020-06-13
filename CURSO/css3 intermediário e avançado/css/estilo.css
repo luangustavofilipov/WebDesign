@@ -1,4 +1,24 @@
-body{
+/*Navegação Vertical
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #643d87 url(../img/fundo.jpg) no-repeat top center;
 }
@@ -57,7 +77,7 @@ input.submit:hover{
 	cursor: pointer;
 }
 
-/*body{
+body{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 

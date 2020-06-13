@@ -41,57 +41,58 @@
     opções: btn-lg, btn-sm, btn-block
     -->
         <h3>Tamanhos dos botões</h3>
-        <button class="" type="button">Grande</button>
-        <button class="" type="button">Pequeno</button>
+        <button class="btn btn-lg btn-warning" type="button">Grande</button>
+        <button class="btn btn-sm btn-dark" type="button">Pequeno</button>
         <br><br>
-        <button class="" type="button">Bloco</button>
+        <button class="btn btn-block btn-info" type="button">Bloco</button>
 
         <!-- Estados dos botões
     opções: active, disabled
     -->
         <h3>Estados de botões</h3>
-        <button class="" type="button">Normal</button>
-        <button class="" type="button">Ativo</button>
-        <button class="" type="button">Inativo</button>
+        <button class="btn btn-danger" type="button">Normal</button>
+        <button class="btn btn-danger active" type="button">Ativo</button>
+        <button class="btn btn-danger disabled" type="button">Inativo</button>
         <br><br>
-        <button class="" type="button">Alternar</button>
+        <button class="btn btn-danger" data-toggle="button" type="button">Alternar</button>
 
         <h3>Grupos de botões - horizontal</h3>
-        <div>
-            <button class="" type="button">Esquerda</button>
-            <button class="" type="button">Centro</button>
-            <button class="" type="button">Direita</button>
+        <div class="btn-group">
+            <button class="btn btn-info" type="button">Esquerda</button>
+            <button class="btn btn-info" type="button">Centro</button>
+            <button class="btn btn-info" type="button">Direita</button>
         </div>
 
         <h3>Grupos de botões - vertical</h3>
-        <div>
-            <button class="" type="button">Topo</button>
-            <button class="" type="button">Meio</button>
-            <button class="" type="button">Fundo</button>
+        <div class="btn-group-vertical">
+            <button class="btn btn-danger" type="button">Topo</button>
+            <button class="btn btn-danger" type="button">Meio</button>
+            <button class="btn btn-danger" type="button">Fundo</button>
         </div>
 
         <h3>Toolbar de botões</h3>
         <div>
-            <div>
-                <button class="" type="button">1</button>
-                <button class="" type="button">2</button>
-                <button class="" type="button">3</button>
+            <div class="btn-group">
+                <button class="btn btn-danger" type="button">1</button>
+                <button class="btn btn-danger" type="button">2</button>
+                <button class="btn btn-danger" type="button">3</button>
             </div>
-            <div>
-                <button class="" type="button">4</button>
-                <button class="" type="button">5</button>
+
+            <div class="btn-group">
+                <button class="btn btn-danger" type="button">4</button>
+                <button class="btn btn-danger" type="button">5</button>
             </div>
         </div>
 
         <h3>Botões dropdown</h3>
-        <div>
-            <button class="" type="button">
+        <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" type="button">
                 Clique
             </button>
-            <div>
-                <a href="#" class="">Link 1</a>
-                <a href="#" class="">Link 2</a>
-                <a href="#" class="">Link 3</a>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link 1</a>
+                <a href="#" class="dropdown-item">Link 2</a>
+                <a href="#" class="dropdown-item">Link 3</a>
             </div>
         </div>
 
