@@ -1,11 +1,58 @@
 /*Estrutura do site
 */
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: #fff url(../img/fundo.png) repeat-x;
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+#topo {
+  padding-top: 27px;
+  height: 150px;
+  background: url(../img/detalhe-topo.png) no-repeat right top;
+}
+
+.logo {
+  text-indent: -3000px;
+  background: url(../img/logo.png) no-repeat center;
+  width: 152px;
+  height: 66px;
+}
+
+/*Barra de navegação
+*/
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#topo ul {
+  margin-top: 30px;
+  background: #b10333;
+  float: left;
+}
+
+#topo ul li {
+  float: left;
+}
+
+#topo ul a {
+  text-decoration: none;
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  color: #fff;
+  background: url(../img/divisor.png) no-repeat left;
 }
