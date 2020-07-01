@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div#logo{
+	margin-top: 5px;
+	margin-left: 10px;
+	text-indent: -3000px;
+	height: 100px;
+	width: 100px;
+	background: url(../img/logo.png) no-repeat;
+}
+
+div#navegacao ul{
+	margin-top: 0;
+	height: 15px;
+	margin-left: 65%;
+	list-style: none;
+}
+
+div#navegacao ul a{
+	margin: 1.5em 1.0em;
+	float: left;
+	color: black;
+	text-decoration: none;
+}
