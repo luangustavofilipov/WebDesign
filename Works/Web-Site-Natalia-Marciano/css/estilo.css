@@ -1,0 +1,98 @@
+<<<<<<< HEAD
+#home{
+	color: #000;
+	background: #c3c3c3;
+=======
+<<<<<<< HEAD
+body{
+	background: #DEE5DD;
+	font-family: 'Verdana';
+}
+
+header{
+    width:25%;
+    background:#DEE5DD;
+    position: absolute;
+    left:0;
+    top:5%;
+    border-radius:0 15px 15px 0;
+    z-index: 5;
+    height:68.5%;
+}
+header h1{
+	font-size: 16pt;
+    text-align: center;
+}
+
+nav ul li{
+	padding-left: 3px;
+}
+nav ul{
+    list-style:none;
+    margin:5px 0;
+    padding:0 5px;
+}
+nav a{
+    display:block;
+    border-radius: 20px;
+    margin:2.1px 0;
+    color:#333;
+    padding:5px;
+    margin-left: 3px;
+    text-decoration: none;
+} 
+.box{
+	line-height: 22px;
+    position:absolute;
+    border-radius: 15px;
+    top:5%;
+    right:19px;
+    width:70%;
+    height:70%;
+    border-bottom: 1px solid #fff;
+    border-left:  1px solid #fff;
+    background:#DEE5DD;
+}
+.box h2{
+    font-size:20px;
+    padding:10px;
+}
+.box p{
+    font-size:14px;
+    padding:10px;
+}
+.content{
+    min-width: 100%;
+    height: 98%;
+    position: absolute;
+    margin-left:-101%;
+    -webkit-transition: margin-left .8s ease-in-out;
+    -moz-transition: margin-left .8s ease-in-out;
+    -o-transition: margin-left .8s ease-in-out;
+    transition: margin-left .8s ease-in-out;
+}
+.content:target{
+    margin-left:0;
+}
+#home{
+    margin-left:0;
+}
+#home:target ~ header #link-home a,
+#company:target ~ header #link-company a,
+#service:target ~ header #link-service a,
+#contact:target ~ header #link-contact a{
+    background: #D2E1D0;
+    color: #000;
+}
+=======
+*{
+	margin: 0;
+	padding: 0;
+>>>>>>> 34e5ab292c179e51880d03d3e73c7ce63d1e12cd
+}
+
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+>>>>>>> 0ea289bd4576e68a70a9caf2e55e0826ce1f9007
